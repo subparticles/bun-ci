@@ -1,4 +1,4 @@
-ARG BUN_VERSION=1.3.14
+ARG BUN_VERSION=1.4.4
 FROM oven/bun:${BUN_VERSION} AS build-env
 
 RUN apt-get update && apt-get install -y \
